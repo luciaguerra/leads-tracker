@@ -48,13 +48,12 @@ button {
     padding: 0.45em 0.9em;
 }
 
-/*#box {
+#container {
     margin: 4em;
     background-color: #ffa79e;
     width: 300px;
     padding: 3em;
-    height: 100px;
     text-align: center;
     color: white;
     font-weight: bold;
-}*/
+}
