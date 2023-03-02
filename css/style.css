@@ -48,7 +48,7 @@ button {
     padding: 0.45em 0.9em;
 }
 
-#container {
+/*#container {
     margin: 4em;
     background-color: #ffa79e;
     width: 300px;
@@ -56,4 +56,17 @@ button {
     text-align: center;
     color: white;
     font-weight: bold;
+}*/
+
+ul {
+    margin: 0.5em 0;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 0.25em;
+}
+
+a {
+    color: var(--green);
 }

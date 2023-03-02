@@ -19,20 +19,25 @@ function renderLeads(){
     for (let i = 0; i < myLeads.length; i++) {
         listItems += `
             <li>
-                <a target='_blank' href='${myLeads[i]}'>
-                    ${myLeads[i]}
-                </a>
-            </li>`;
+                <a target='_blank' href='${myLeads[i]}'>${myLeads[i]}</a>
+            </li>`
     }
 
     ulEl.innerHTML = listItems; 
 }
 
+/*const recipient = "James";
+const sender = "Lucía";
+
+const email = `Hey ${recipient}!
+        How is it going? 
+        Cheers ${sender}`;
+
+console.log(email)
 
 
 
-
-/*let container = document.getElementById("container");
+let container = document.getElementById("container");
 
 container.innerHTML = "<button onclick='buy()'>Buy!</button>"; 
 
