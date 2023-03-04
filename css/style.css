@@ -31,12 +31,19 @@ main {
 
 button {
     background-color: var(--green);
+    width: 8em;
     color: white;
-    padding: 0.65em 1em;
     border: none;
-    margin: 0.5em 0;
+    margin: auto;
+    padding: 0.5em;
     font-weight: bold;
     cursor: pointer;
+    border: 1px solid var(--green);
+}
+
+button#delete-btn {
+    background-color: transparent;
+    color: var(--green);
 }
 
 [type="text"]:focus {
@@ -46,6 +53,7 @@ button {
 [type="text"] {
     border: 1px solid var(--green);
     padding: 0.45em 0.9em;
+    margin-bottom: 0.5em;
 }
 
 /*#container {
