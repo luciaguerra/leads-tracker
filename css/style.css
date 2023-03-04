@@ -17,15 +17,12 @@ body {
 
 body, main, #box {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
 main {
     width: 80%;
     height: 100vh;
-    
     margin: 2em;
 }
 
@@ -55,16 +52,6 @@ button#delete-btn {
     padding: 0.45em 0.9em;
     margin-bottom: 0.5em;
 }
-
-/*#container {
-    margin: 4em;
-    background-color: #ffa79e;
-    width: 300px;
-    padding: 3em;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}*/
 
 ul {
     margin: 0.5em 0;
